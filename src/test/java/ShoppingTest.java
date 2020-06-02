@@ -25,7 +25,7 @@ public class ShoppingTest {
     @Test(priority = 0)
     public void statusControlForIntegrationTest() throws Exception {
         ApiTestMethods apiTestMethods = new ApiTestMethods();
-        Assert.assertEquals(208,apiTestMethods.status());
+        Assert.assertEquals(200,apiTestMethods.status());
         Log.info("Status is 200, successful");
 
     }
